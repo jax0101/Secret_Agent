@@ -114,6 +114,8 @@ margin-top: 3rem;
   color: white;
   width: 35%;
 }
-.title span {
-  width: 35%;
+.text {
+ display: block;
+ padding-left: 25%;
+ wrap: nowrap;
 }
