@@ -76,10 +76,13 @@ h2 {
 .container {
   max-width: 960px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .box {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-top: 3rem;
   width: 30%;
@@ -99,11 +102,15 @@ h2 {
   color: white;
   text-align: center;
 }
+
 .buiz-info {
-display: flex;
-justify-content: space-between;
-margin-top: 3rem;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
 }
+
 .details {
   width: 35%;
 }
@@ -116,6 +123,17 @@ margin-top: 3rem;
 }
 .text {
  display: block;
- padding-left: 25%;
  wrap: nowrap;
+}
+.contailer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 5rem 0;
+  background-color: black;
+  color: white;
+  text-align: left;
+  margin-top: 4rem; 
 }
